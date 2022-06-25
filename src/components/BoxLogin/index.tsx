@@ -1,6 +1,7 @@
 
+import React from 'react'
 import * as S from "./style";
-import logo from 'assets/img/logo.png'
+
 const BoxLogin: React.FC = () => {
   return(
   <S.BoxLogin>
@@ -9,7 +10,7 @@ const BoxLogin: React.FC = () => {
         <span>Pizza</span>
         <span>Fresh</span>
       </S.BoxLoginLogoText>
-      <S.BoxLoginLogoImage src={logo} alt="imagem que representa o logo que é uma fatia de pizza em vermelho e verde neon."/>
+      <S.BoxLoginLogoImage src="./assets/img/logo.png" alt="imagem que representa o logo que é uma fatia de pizza em vermelho e verde neon."/>
      
     </S.BoxLoginLogo>
     <S.BoxLoginForm>

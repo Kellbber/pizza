@@ -4,7 +4,7 @@ import styled, { css } from "styled-components";
 export const Login = styled.section`
   ${({ theme }) => css`
     background-color: ${theme.colors.baseBg2};
-    background-image: url("assets/img/pizza-pattern.png"); 
+    background-image: url("./assets/img/pizza-pattern.png"); 
     background-size: cover;
     background-position: center;
     width: 100vw;
